@@ -29,9 +29,56 @@
 		2719E91F2D49989800C94913 /* SlackCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlackCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2719E9402D49CAC300C94913 /* Exceptions for "SlackClone" folder in "SlackClone" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2719E9042D49989600C94913 /* SlackClone */;
+		};
+		27A5DA892D49ED3700472052 /* Exceptions for "SlackClone" folder in "SlackCloneTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Fonts/Lato/Lato-Black.ttf",
+				"Fonts/Lato/Lato-BlackItalic.ttf",
+				"Fonts/Lato/Lato-Bold.ttf",
+				"Fonts/Lato/Lato-BoldItalic.ttf",
+				"Fonts/Lato/Lato-Italic.ttf",
+				"Fonts/Lato/Lato-Light.ttf",
+				"Fonts/Lato/Lato-LightItalic.ttf",
+				"Fonts/Lato/Lato-Regular.ttf",
+				"Fonts/Lato/Lato-Thin.ttf",
+				"Fonts/Lato/Lato-ThinItalic.ttf",
+			);
+			target = 2719E9142D49989800C94913 /* SlackCloneTests */;
+		};
+		27A5DA8A2D49ED3700472052 /* Exceptions for "SlackClone" folder in "SlackCloneUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Fonts/Lato/Lato-Black.ttf",
+				"Fonts/Lato/Lato-BlackItalic.ttf",
+				"Fonts/Lato/Lato-Bold.ttf",
+				"Fonts/Lato/Lato-BoldItalic.ttf",
+				"Fonts/Lato/Lato-Italic.ttf",
+				"Fonts/Lato/Lato-Light.ttf",
+				"Fonts/Lato/Lato-LightItalic.ttf",
+				"Fonts/Lato/Lato-Regular.ttf",
+				"Fonts/Lato/Lato-Thin.ttf",
+				"Fonts/Lato/Lato-ThinItalic.ttf",
+			);
+			target = 2719E91E2D49989800C94913 /* SlackCloneUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2719E9072D49989600C94913 /* SlackClone */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2719E9402D49CAC300C94913 /* Exceptions for "SlackClone" folder in "SlackClone" target */,
+				27A5DA892D49ED3700472052 /* Exceptions for "SlackClone" folder in "SlackCloneTests" target */,
+				27A5DA8A2D49ED3700472052 /* Exceptions for "SlackClone" folder in "SlackCloneUITests" target */,
+			);
 			path = SlackClone;
 			sourceTree = "<group>";
 		};
@@ -399,6 +446,7 @@
 				DEVELOPMENT_TEAM = Z2PMD2SJR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlackClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +476,7 @@
 				DEVELOPMENT_TEAM = Z2PMD2SJR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlackClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
